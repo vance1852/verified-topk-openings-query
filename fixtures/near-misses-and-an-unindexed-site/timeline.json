@@ -1,0 +1,68 @@
+[
+  {
+    "pos": 12,
+    "kind": "query",
+    "id": "t",
+    "place": [
+      0,
+      0
+    ],
+    "credential": "weld",
+    "schedule": "day",
+    "source_pos": 12,
+    "page": 2,
+    "budget": 50
+  },
+  {
+    "pos": 13,
+    "kind": "change",
+    "position": 13,
+    "table": "states",
+    "key": "d",
+    "row": [
+      "d",
+      0,
+      1
+    ]
+  },
+  {
+    "pos": 14,
+    "kind": "discover_coverage_gap",
+    "zone": "near",
+    "through": 8
+  },
+  {
+    "pos": 15,
+    "kind": "continue",
+    "id": "t",
+    "budget": 25
+  },
+  {
+    "pos": 16,
+    "kind": "query",
+    "id": "new",
+    "place": [
+      0,
+      0
+    ],
+    "credential": "weld",
+    "schedule": "day",
+    "source_pos": 13,
+    "page": 2,
+    "budget": 60
+  },
+  {
+    "pos": 17,
+    "kind": "query",
+    "id": "tight",
+    "place": [
+      0,
+      0
+    ],
+    "credential": "weld",
+    "schedule": "day",
+    "source_pos": 13,
+    "page": 4,
+    "budget": 4
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "pos": 3,
+    "kind": "query",
+    "id": "ties",
+    "place": [
+      0,
+      0
+    ],
+    "credential": "care",
+    "schedule": "day",
+    "source_pos": 3,
+    "page": 2,
+    "budget": 60
+  },
+  {
+    "pos": 4,
+    "kind": "continue",
+    "id": "ties",
+    "budget": 50
+  }
+]

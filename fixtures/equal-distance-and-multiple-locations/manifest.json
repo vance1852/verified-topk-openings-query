@@ -1,0 +1,17 @@
+{
+  "databases": {
+    "main": {
+      "file": "main.sql",
+      "rows": {
+        "positions": 4,
+        "shifts": 4,
+        "states": 3,
+        "coverage": 1,
+        "index_rows": 4
+      }
+    }
+  },
+  "events": 2,
+  "documents": [],
+  "settings": {}
+}
